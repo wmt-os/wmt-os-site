@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+# IkiWiki::Setup::Yaml - YAML formatted setup file
+wikiname: WMT OS
+url: https://wmt-os.org
+srcdir: content
+destdir: public
+templatedir: templates
+underlaydir: content
+wikistatedir: .ikiwiki
+usedirs: 0
+timezone: UTC
+rss: 1
+atom: 1
+add_plugins: [h1title, headinganchors]
+# openid adds a JavaScript underlay
+disable_plugins: [openid]
