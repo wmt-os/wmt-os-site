@@ -6,6 +6,7 @@ Development happens on GitHub under the [wmt-os](https://github.com/wmt-os) orga
 - **[linux-wmt](https://github.com/wmt-os/linux-wmt)**: The kernel fork powering the platform.
 - **[xf86-video-wmt](https://github.com/wmt-os/xf86-video-wmt)**: The 2D-accelerated X.org video driver.
 - **[wmt-os-dist](https://github.com/wmt-os/wmt-os-dist)**: The publishers and package recipes.
+- **[wmt-os-site](https://github.com/wmt-os/wmt-os-site)**: This website.
 
 Report bugs to the repository they concern. Everything else goes to [Community](community.html).
 
