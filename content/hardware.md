@@ -1,15 +1,13 @@
 # Hardware
 
-These netbooks were sold under many brands, with boards that differ in audio codec, battery, and panel. The models below are known to work.
+WM8505 netbooks were sold under many brands, with boards that differ in audio codec, battery, and panel. The models below are known to work.
 
-| Model                  | Display          | Audio codec       |
-| ---------------------- | ---------------- | ----------------- |
-| Sylvania SYNET07526    | 7 inch 800x480   | VT1612A or VT1613 |
-| Sylvania SYNET7WID     | 7 inch 800x480   | VT1613            |
-| JAY-tech Jay-Book 9901 | 7 inch 800x480   | VT1613            |
-| EPC-1026               | 10 inch 1024x600 | WM9715L           |
-
-Early Sylvania units are labeled SmartBook, later ones Netbook.
+| Model                         | Display          | Audio codec       |
+| ----------------------------- | ---------------- | ----------------- |
+| Sylvania SmartBook SYNET07526 | 7 inch 800x480   | VT1612A or VT1613 |
+| Sylvania Netbook SYNET7WID    | 7 inch 800x480   | VT1613            |
+| JAY-tech Jay-Book 9901        | 7 inch 800x480   | VT1613            |
+| EPC-1026                      | 10 inch 1024x600 | WM9715L           |
 
 ## Supported
 
@@ -26,7 +24,7 @@ Early Sylvania units are labeled SmartBook, later ones Netbook.
 | USB peripherals               | Keyboards, mice, audio, storage, and networking |
 | Battery monitoring            | Self-calibrating voltage-based estimation\*     |
 
-\* VT1613 and VT1612A boards. WM9715L boards are not yet supported.
+\* VT1612A and VT1613 boards. WM9715L boards are not yet supported.
 
 ## Planned
 

@@ -2,7 +2,7 @@
 
 WMT OS is a modern Linux distribution for netbooks built on the WonderMedia WM8505 SoC, based on Debian 13 (Trixie). It's currently a solo project by me, Logan Russell.
 
-I got my first WM8505 netbook in 2012 and never quite put it down. By 2014 I was on the linux-vtwm mailing list, where the chip was being brought to mainline, and I was trying to get it running on mine. It booted, and for the most part that's where it stayed, with the rest of the hardware unsupported as the years passed. A decade later I had the tools to finish the job, and WMT OS is the result, the support I've always wanted these machines to have.
+I got my first WM8505 netbook in 2012 and never quite put it down. By 2014 I was on the linux-vtwm mailing list, where the chip was being brought to mainline, trying to get it running on mine. It booted, and for the most part that's where it stayed. The mainline effort wound down, and the rest of the hardware went unsupported as the years passed. A decade later I had the tools to finish the job. WMT OS is the result, the support I've always wanted these machines to have.
 
 ## Credits
 

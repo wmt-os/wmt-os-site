@@ -14,11 +14,11 @@ Development happens on GitHub under the [wmt-os](https://github.com/wmt-os) orga
 
 ## Kernel
 
-The kernel fork tracks the `6.12.y` LTS branch. Active development continues to modernize the SoC's hardware support, with recent work bringing new DRM/KMS, DMA engine, ASoC, CCF, Serio, and battery drivers to the platform.
+The kernel fork tracks the `6.12.y` LTS branch. Development focuses on modernizing the SoC's hardware support. Recent work added new DRM/KMS, DMA engine, ASoC, CCF, serio, and battery drivers.
 
 ## Package repository
 
-Every image is preconfigured with the signed WMT OS APT repository at [apt.wmt-os.org](https://apt.wmt-os.org/), pinned above Debian. It delivers the kernel and other packages.
+Every image is preconfigured with the signed WMT OS APT repository at [apt.wmt-os.org](//apt.wmt-os.org/), pinned above Debian. It delivers the kernel and other packages.
 
 ```
 Suite         trixie

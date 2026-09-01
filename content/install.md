@@ -10,7 +10,7 @@ Use your preferred imaging tool to write the OS to your card:
   - Click "CHOOSE OS", select "Use custom", and open the downloaded image.
   - Click "CHOOSE STORAGE" and select your SD card.
   - Click "NEXT". Choose "NO" for applying OS customizations, then "YES" to start flashing.
-- **Command Line (`dd`):**
+- **Command line (`dd`):**
   - Decompress the image:
 
         xz -d /path/to/wmt-os-<profile>-<stamp>.img.xz

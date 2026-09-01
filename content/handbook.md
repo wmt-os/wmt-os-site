@@ -13,7 +13,7 @@
 
 ## Wi-Fi
 
-The built-in Wi-Fi adapter is enabled on boot. You can configure your network using `nmtui` in the terminal (on the desktop, this is also found in the menu under Settings > NetworkManager). If your specific netbook shipped with the older 802.11g adapter rather than the 802.11n variant, you may need to ensure your router allows legacy [802.11g](https://en.wikipedia.org/wiki/IEEE_802.11g-2003) clients.
+The built-in Wi-Fi adapter is enabled on boot. You can configure your network using `nmtui` in the terminal (on the desktop, this is also found in the menu under Settings > NetworkManager). If your netbook shipped with the older 802.11g adapter rather than the 802.11n variant, you may need to ensure your router allows legacy [802.11g](https://en.wikipedia.org/wiki/IEEE_802.11g-2003) clients.
 
 ## Desktop hotkeys
 
@@ -32,7 +32,7 @@ On these netbooks, the `Super` key corresponds to the key printed with a `Zzz` s
 
 Run `alsamixer` in the terminal for the full set of audio controls. The available controls vary by codec.
 
-A USB sound card can become the default audio device by creating `~/.asoundrc` with the two lines below, using the card number shown by `aplay -l`.
+To make a USB sound card the default audio device, create `~/.asoundrc` with the two lines below, using the card number shown by `aplay -l`.
 
 ```
 defaults.pcm.card 1
@@ -53,11 +53,11 @@ The keymap chosen during setup applies to both the console and the desktop. Layo
 
 ## SSH
 
-Dropbear provides the SSH server, with host keys uniquely generated on first boot. Because Dropbear lacks SFTP support, file transfers must be done using SCP or the [FISH](https://en.wikipedia.org/wiki/Files_transferred_over_shell_protocol) protocol.
+Dropbear provides the SSH server, with host keys uniquely generated on first boot. Because Dropbear lacks SFTP support, file transfers must use SCP (`scp -O` on newer OpenSSH clients, which default to SFTP) or the [FISH](https://en.wikipedia.org/wiki/Files_transferred_over_shell_protocol) protocol.
 
 ## Updates
 
-Every image is preconfigured with the signed WMT OS APT repository at [apt.wmt-os.org](https://apt.wmt-os.org/), pinned above Debian. Upgrading is exactly the same as any Debian-based system:
+Every image is preconfigured with the signed WMT OS APT repository at [apt.wmt-os.org](//apt.wmt-os.org/), pinned above Debian. Upgrading works the same as on any Debian-based system:
 
 ```
 sudo apt update && sudo apt upgrade
@@ -67,7 +67,7 @@ When a new kernel installs, it builds its U-Boot files automatically and takes e
 
 ## Kernel rollback
 
-If a kernel update causes issues, the boot partition carries a script to easily revert to the previous kernel:
+If a kernel update causes issues, the boot partition carries a script to revert to the previous kernel:
 
 - **Windows or Windows CE:** Run `rollback.cmd`.
 - **Linux or macOS:** Run `sh /path/to/rollback.sh`.
