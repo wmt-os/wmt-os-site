@@ -9,8 +9,9 @@ underlaydir: content
 wikistatedir: .ikiwiki
 usedirs: 0
 timezone: UTC
+timeformat: '%Y-%m-%d'
 rss: 1
 atom: 1
-add_plugins: [h1title, headinganchors]
+add_plugins: [h1title, headinganchors, pagetemplate]
 # openid adds a JavaScript underlay
 disable_plugins: [openid]

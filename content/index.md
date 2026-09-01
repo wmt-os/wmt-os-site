@@ -16,6 +16,6 @@ See [Download](download.html) for the images and [Install](install.html) for the
 
 ## Recent changes
 
-[[!inline pages="changelog/*" archive=yes show=3 feeds=no sort=title reverse=yes]]
+[[!inline pages="changelog/*" archive=yes show=5 feeds=no]]
 
 [All changes](changelog.html)
