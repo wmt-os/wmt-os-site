@@ -20,11 +20,13 @@ The site is written to `public/`.
 
 ## Deploying
 
-The web host holds a clone of this repository and rebuilds from a local `.git/hooks/post-merge`, so a deploy is a push here and a `git pull` there:
+The web host keeps a clone of this repository in the `builder` account, with a local `.git/hooks/post-merge` that rebuilds the site and rsyncs `public/` to the `webroot` account, so a deploy is a push here and a `git pull` there:
 
 ```sh
 #!/bin/sh
-exec ikiwiki --setup ikiwiki.setup --set destdir=/home/webroot/wmt-os.org
+set -e
+ikiwiki --setup ikiwiki.setup
+rsync -a --delete public/ webroot:wmt-os.org/
 ```
 
 ## License
