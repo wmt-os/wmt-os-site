@@ -1,11 +1,37 @@
 # Download
 
-Two images are available. Take the desktop image unless you want a console-only system.
+Two images are available. Take the desktop image unless you want a console-only system. The links below always point at the newest build. See [Install](install.html) for the full setup guide.
 
-- **[wmt-os-standard.img.xz](//releases.wmt-os.org/latest/wmt-os-standard.img.xz)** ([sha256](//releases.wmt-os.org/latest/wmt-os-standard.img.xz.sha256)): A minimal console system with Wi-Fi, SSH, and all standard system utilities.
-- **[wmt-os-desktop.img.xz](//releases.wmt-os.org/latest/wmt-os-desktop.img.xz)** ([sha256](//releases.wmt-os.org/latest/wmt-os-desktop.img.xz.sha256)): Everything in standard, plus the 2D-accelerated X.org driver, IceWM, the Dillo and NetSurf web browsers, Xfe file manager, Goggles Music Manager, a text editor, calculator, image viewer, screenshot tool, USB drive automounting, and volume/brightness hotkeys.
+## Standard
 
-The links always point at the newest build. See [Install](install.html) for the full setup guide.
+**[wmt-os-standard.img.xz](//releases.wmt-os.org/latest/wmt-os-standard.img.xz)** ([sha256](//releases.wmt-os.org/latest/wmt-os-standard.img.xz.sha256))
+
+A minimal console system:
+
+- Hardware-accelerated text console
+- Wi-Fi through [NetworkManager](https://networkmanager.dev/)
+- [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) SSH server
+- sudo, htop, screen, rsync, and the rest of the standard system utilities
+
+## Desktop
+
+**[wmt-os-desktop.img.xz](//releases.wmt-os.org/latest/wmt-os-desktop.img.xz)** ([sha256](//releases.wmt-os.org/latest/wmt-os-desktop.img.xz.sha256))
+
+Everything in Standard, plus a full graphical desktop:
+
+- 2D-accelerated X.org driver
+- [IceWM](https://ice-wm.org/) window manager with an xdm login screen
+- [XTerm](https://invisible-island.net/xterm/) terminal
+- [Dillo](https://dillo-browser.github.io/) and [NetSurf](https://www.netsurf-browser.org/) web browsers
+- [Xfe](https://sourceforge.net/projects/xfe/) file manager
+- [Goggles Music Manager](https://gogglesmm.github.io/)
+- [Xfw](https://sourceforge.net/projects/xfe/) text editor
+- [Adie](http://www.fox-toolkit.org/adie.html) text editor with syntax highlighting
+- [FOX Calculator](http://www.fox-toolkit.org/calc.html)
+- [Xfi](https://sourceforge.net/projects/xfe/) image viewer
+- [ShutterBug](http://www.fox-toolkit.org/) screenshot tool
+- USB drive automounting
+- Volume and brightness hotkeys
 
 ## All releases
 
