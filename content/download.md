@@ -25,6 +25,7 @@ Everything in Standard, plus a full graphical desktop:
 - [Dillo](https://dillo-browser.github.io/) and [NetSurf](https://www.netsurf-browser.org/) web browsers
 - [Xfe](https://sourceforge.net/projects/xfe/) file manager
 - [Goggles Music Manager](https://gogglesmm.github.io/)
+- Hardware-accelerated MJPEG video player
 - [Xfw](https://sourceforge.net/projects/xfe/) text editor
 - [Adie](http://www.fox-toolkit.org/adie.html) text editor with syntax highlighting
 - [FOX Calculator](http://www.fox-toolkit.org/calc.html)

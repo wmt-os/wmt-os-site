@@ -17,6 +17,8 @@ WM8505 netbooks were sold under many brands, with boards that differ in audio co
 | Backlight                     | PWM brightness control                          |
 | Graphics acceleration, kernel | DRM/KMS driver with 2D and console acceleration |
 | Graphics acceleration, X.org  | 2D-accelerated video driver with VSync          |
+| Video decoder, JPEG/MJPEG     | Hardware decoding for video playback            |
+| Video scaler                  | Hardware scaling and color conversion           |
 | Built-in audio                | Headphone and speaker output                    |
 | Keyboard and touchpad         | Built-in PS/2 controller                        |
 | SD card                       | Built-in SD/MMC controller                      |
@@ -25,13 +27,6 @@ WM8505 netbooks were sold under many brands, with boards that differ in audio co
 | Battery monitoring            | Self-calibrating voltage-based estimation\*     |
 
 \* VT1612A and VT1613 boards. WM9715L boards are not yet supported.
-
-## Planned
-
-| Component                 | Notes                                      |
-| ------------------------- | ------------------------------------------ |
-| Video decoder, JPEG/MJPEG | Dedicated decode engine for video playback |
-| Video scaler              | Hardware scaling engine                    |
 
 ## Unsupported
 

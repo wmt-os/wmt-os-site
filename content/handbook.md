@@ -3,6 +3,7 @@
 - [Wi-Fi](#Wi-Fi)
 - [Desktop hotkeys](#Desktop_hotkeys)
 - [Audio](#Audio)
+- [Video](#Video)
 - [Battery](#Battery)
 - [Keymap](#Keymap)
 - [SSH](#SSH)
@@ -40,6 +41,22 @@ defaults.ctl.card 1
 ```
 
 The standard profile does not include audio utilities by default. To add them, run `sudo apt install alsa-utils`.
+
+## Video
+
+The desktop profile ships with `wmt-play`, a fullscreen video player that uses the hardware JPEG decoder and scaler. It plays MJPEG AVI files, so other video must be converted first. On another computer with `ffmpeg` installed, run the `wmt-encode.sh` script from the [wmt-play](https://github.com/wmt-os/wmt-play) repository:
+
+```
+./wmt-encode.sh input.mp4
+```
+
+Play the resulting `input.avi` from a terminal on the desktop, either copied to the netbook or directly from a flash drive:
+
+```
+wmt-play input.avi
+```
+
+Run `man wmt-play` for the keys and options. Installs that predate the player can add it with `sudo apt install wmt-play` after upgrading.
 
 ## Battery
 

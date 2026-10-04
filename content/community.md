@@ -17,12 +17,13 @@ Everything lives on GitHub under the [wmt-os](https://github.com/wmt-os) organiz
 - **[wmt-os](https://github.com/wmt-os/wmt-os)**: The build system that produces the images.
 - **[linux-wmt](https://github.com/wmt-os/linux-wmt)**: The kernel fork powering the platform.
 - **[xf86-video-wmt](https://github.com/wmt-os/xf86-video-wmt)**: The 2D-accelerated X.org video driver.
+- **[wmt-play](https://github.com/wmt-os/wmt-play)**: The zero-copy fullscreen video player.
 - **[wmt-os-dist](https://github.com/wmt-os/wmt-os-dist)**: The publishers and package recipes.
 - **[wmt-os-site](https://github.com/wmt-os/wmt-os-site)**: This website.
 
 ### Kernel
 
-The kernel fork tracks the `6.12.y` LTS branch. Development focuses on modernizing the SoC's hardware support. Recent work added new DRM/KMS, DMA engine, ASoC, CCF, serio, and battery drivers.
+The kernel fork tracks the `6.12.y` LTS branch. Development focuses on modernizing the SoC's hardware support. Recent work added new DRM/KMS, V4L2, DMA engine, ASoC, CCF, serio, and battery drivers.
 
 ### Package repository
 
