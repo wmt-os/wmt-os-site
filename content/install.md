@@ -36,7 +36,7 @@ WMT OS runs completely unattended on first boot. It reads your desired hostname,
 - **On a Windows PC:** Open the card and run `setup.cmd`. The same form opens and saves `setup.ini` in place.
 - **On Linux or macOS:** Open `setup-web.html` in a web browser, fill out the form, and click Save. Copy the downloaded `setup.ini` to the root of the card's boot partition.
 
-![Setup wizard running on Windows CE](images/setup-wince.png)
+<img src="images/setup-wince.png" alt="Setup wizard running on Windows CE">
 
 If you skip configuration, the system falls back to these default settings:
 
