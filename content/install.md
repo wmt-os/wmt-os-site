@@ -55,6 +55,6 @@ The default user account is a sudoer. `setup.ini` is read once on first boot and
 
 With the card inserted, power on the netbook. It will boot WMT OS automatically.
 
-The initial boot takes several minutes. During this time, it applies your configuration, expands the root filesystem to fill the rest of the SD card, creates a 256 MB swap file, and generates SSH host keys.
+The initial boot takes several minutes. During this time, it applies your configuration, expands the root filesystem to fill the rest of the SD card, and generates SSH host keys.
 
 Your netbook is now running WMT OS. See the [Handbook](handbook.html) for using and maintaining your system.
