@@ -1,6 +1,6 @@
 # WMT OS Site
 
-Website and documentation for [WMT OS](https://github.com/wmt-os/wmt-os), published at [wmt-os.org](https://wmt-os.org/).
+Website and documentation for WMT OS, published at [wmt-os.org](https://wmt-os.org/).
 
 The site is plain Markdown compiled to static HTML by [ikiwiki](https://ikiwiki.info/), with no JavaScript.
 
