@@ -2,7 +2,7 @@
 
 WMT OS is a modern Linux distribution for netbooks built on the WonderMedia WM8505 SoC, based on Debian 13 (Trixie).
 
-<a href="images/netbook-full.png"><img src="images/netbook.png" alt="Netbook running WMT OS"></a>
+<a href="images/netbook-full.png"><img src="images/netbook.png" width="600" height="545" alt="Netbook running WMT OS"></a>
 
 Development is focused on the Sylvania Netbook, sold for $99 [by CVS in late 2010](https://www.informationweek.com/it-leadership/cvs-offers-99-sylvania-netbook) running Windows CE 6.0. Equipped with a 300 MHz single-core 32-bit [ARM926EJ-S](https://en.wikipedia.org/wiki/ARM9#ARM9E-S_and_ARM9EJ-S) SoC (sharing the same 2001 CPU architecture as the Nintendo Wii... well, its coprocessor), 128 MB of RAM, and an 800x480 display, it was considered e-waste even when it was first released. Naturally, that makes it an excellent candidate for a modern Linux distribution today.
 

@@ -36,7 +36,7 @@ WMT OS runs completely unattended on first boot. It reads your desired hostname,
 - **On a Windows PC:** Open the card and run `setup.cmd`. The same form opens and saves `setup.ini` in place.
 - **On Linux or macOS:** Open `setup-web.html` in a web browser, fill out the form, and click Save. Copy the downloaded `setup.ini` to the root of the card's boot partition.
 
-<img src="images/setup-wince.png" alt="Setup wizard running on Windows CE">
+<img src="images/setup-wince.png" width="702" height="316" alt="Setup wizard running on Windows CE">
 
 If you skip configuration, the system falls back to these default settings:
 
@@ -46,7 +46,7 @@ If you skip configuration, the system falls back to these default settings:
 | Root password | `root`     |
 | Username      | `wmt-user` |
 | User password | `wmt-user` |
-| Timezone      | UTC        |
+| Timezone      | `UTC`      |
 | Keymap        | `us`       |
 
 The default user account is a sudoer. `setup.ini` is read once on first boot and then shredded since it holds plaintext passwords. If you boot using the defaults, be sure to change both passwords after logging in.

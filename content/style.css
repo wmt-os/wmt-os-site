@@ -24,13 +24,12 @@ a:visited {
 }
 
 .masthead td {
-	padding: 0 1em 0 0;
+	padding: 0;
 	border: 0;
-	vertical-align: top;
 }
 
 .masthead td.text {
-	padding-top: 12px;
+	padding: 12px 0 0 1em;
 	line-height: 30px;
 }
 
@@ -104,7 +103,11 @@ pre {
 }
 
 pre, code, kbd, samp {
-	font-family: monospace;
+	font-family: monospace, monospace;
+	font-size: 0.75em;
+}
+
+pre code {
 	font-size: 1em;
 }
 
@@ -117,8 +120,6 @@ hr {
 img {
 	border: 0;
 	display: block;
-	max-width: 100%;
-	height: auto;
 }
 
 table {
@@ -161,6 +162,11 @@ th {
 	.nav tbody,
 	.nav tr {
 		display: contents;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
 	}
 }
 
