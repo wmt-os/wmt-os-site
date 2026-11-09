@@ -20,7 +20,7 @@ a:visited {
 }
 
 .masthead {
-	margin-bottom: 0;
+	margin-bottom: 12px;
 }
 
 .masthead td {
@@ -47,10 +47,18 @@ a.wordmark:visited {
 }
 
 .nav {
-	margin: 12px 0 0 0;
-	padding: 0.4em 0.7em;
+	padding: 0 0.25em;
 	background: #f5f5f5;
 	border: 1px solid #cccccc;
+}
+
+.nav table {
+	margin: 0;
+}
+
+.nav td {
+	padding: 0.4em 0.25em;
+	border: 0;
 }
 
 h1 {
@@ -142,4 +150,22 @@ th {
 .footer {
 	font-size: 0.9em;
 	color: #444444;
+}
+
+@media (max-width: 779px) {
+	.nav table {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.nav tbody,
+	.nav tr {
+		display: contents;
+	}
+}
+
+@media (max-width: 479px) {
+	.nav table {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
